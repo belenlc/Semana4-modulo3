@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    DIMENSIONES BIO menu de opciones > acerca de
+    -->
+    <dimen name="nombreBio">25dp</dimen>
+    <dimen name="descripcionBio">20dp</dimen>
+    <dimen name="margenSuperiorBio">10dp</dimen>
+    <dimen name="separaciónTextosBio">20dp</dimen>
+    <dimen name="FotoBio">200dp</dimen>
+
+</resources>

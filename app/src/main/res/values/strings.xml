@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">mascotasS4</string>
+
+    <!--
+    Opciones del menu de Opciones
+    -->
+    <string name="menucontacto">Contacto</string>
+    <string name="menuAcercaDe">Acerca De</string>
+    <string name="ActionEstrella">5</string>
+
+    <!--
+    Textos formulario opcion "contacto" del menu de opciones
+    -->
+    <string name="nombreFormulario">Nombre Completo</string>
+    <string name="correoFormulario">Correo</string>
+    <string name="comentarioFormulario">Comentario</string>
+
+    <string name="botonEnviarFormulario">ENVIAR</string>
+
+
+    <!--
+    Textos bio opcion "Acerca De" del menu de opciones
+    -->
+    <string name="nombreBio">Belén Luque Caro</string>
+    <string name="descripciónBio">
+        Estudiante del grado Ingeniería en tecnologías de Telecomunicación, de la universidad de
+        Granada, España.
+        El objetivo de esta app es practicar y mejorar sus conocimientos de android Studio para
+        la programación y entrega de su TFG.
+    </string>
+
+
+    <!--
+    Textos CardView Principal (Fragment HOME)
+    -->
+    <string name="nombreCV">mascota</string>
+    <string name="numLikesCV">0</string>
+    <string name="espacioBlancoCV"> </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MENU.AcercaDe"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/FotoBio"
+        android:layout_height="@dimen/FotoBio"
+        android:id="@+id/fotoBio"
+        android:src="@drawable/mujer"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NombreBio"
+        android:text="@string/nombreBio"
+        android:textSize="@dimen/nombreBio"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margenSuperiorBio"
+        android:layout_below="@id/fotoBio"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descripcionBio"
+        android:text="@string/descripciónBio"
+        android:textSize="@dimen/descripcionBio"
+        android:layout_below="@id/NombreBio"
+        android:layout_marginTop="@dimen/separaciónTextosBio"
+        android:layout_marginLeft="@dimen/margenSuperiorBio"
+
+        />
+
+</RelativeLayout>

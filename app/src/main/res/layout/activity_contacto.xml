@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".POJO.Contacto"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombreFormulario"
+        android:hint="@string/nombreFormulario"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/correoFormulario"
+        android:hint="@string/correoFormulario"
+        android:layout_below="@id/nombreFormulario"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comentarioFormulario"
+        android:hint="@string/comentarioFormulario"
+        android:layout_below="@id/correoFormulario"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BotonEnviar"
+        android:layout_below="@+id/comentarioFormulario"
+        android:layout_centerInParent="true"
+        android:text="@string/botonEnviarFormulario"
+        android:onClick=""
+
+        />
+
+</RelativeLayout>
